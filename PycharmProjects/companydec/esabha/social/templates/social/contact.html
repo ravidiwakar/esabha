@@ -1,0 +1,39 @@
+{% extends 'base.html'%}
+{% block content %}
+<main class="p-5">
+<div class="row p-3">
+    <div class="col">
+<h1>CONTACT PAGE</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-8">
+<form>
+    <input class="form-control" type="text" name="uname" placeholder="Name" /><br>
+        <input class="form-control" type="email" name="email" placeholder="email" /><br>
+        <input class="form-control" type="phone_no" name="phone_no" placeholder="phone no" /><br>
+        <textarea class="form-control" placeholder="MSG"></textarea><br>
+    <button class="btn btn-primary btn-block" type="submit">Submit</button>
+</form>
+    </div>
+    <div class="col-sm-4">
+
+            <strong><span class="fa fa-map-marker fa-2x mx-2"></span></strong>Islampur Village Sector 38, Near-Subhash chowk, Gurugram, Haryana 122022
+            </strong><br><br>
+            <strong><span class="fa fa-phone fa-2x mx-2"></span></strong>98102xxx82<br><br>
+            <strong><span class="fa fa-fax fa-2x mx-2"></span></strong>xxx9642333<br><br>
+            <strong><span class="fa fa-globe fa-2x mx-2"></span></strong>http://ravi.com<br><br>
+        </p>
+
+    </div>
+</div>
+<div class="row my-5">
+    <div class="col-sm-8 offset-sm-2">
+        <div class="embed-responsive embed-responsive-16by9">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7017.025952527323!2d77.0344105254241!3d28.433948929986165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d187206d14acd%3A0xbd97a9ff56a1679!2sIslampur%20Village%2C%20Sector%2038%2C%20Gurugram%2C%20Haryana%20122022!5e0!3m2!1sen!2sin!4v1576692049990!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div>
+</div>
+</main>
+{% endblock %}
